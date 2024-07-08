@@ -51,7 +51,7 @@ const MagneticButton = () => {
 
   return (
     <a className='magneticButton' ref={buttonRef} style={{ display: 'inline-block', position: 'relative' }}>
-      <span ref={childrenRef}>Hover me!</span>
+      <span ref={childrenRef}>.</span>
     </a>
   );
 };

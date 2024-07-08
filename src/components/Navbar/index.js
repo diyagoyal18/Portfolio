@@ -1,8 +1,7 @@
-import React, {useState,useRef,useEffect} from 'react';
+import React, {useState} from 'react';
 import './Navbar.scss';
 import {motion, AnimatePresence} from "framer-motion";
-import { gsap, Elastic } from 'gsap';
-
+import MagneticButton from '../Layout'; 
 function Navbar() {
 
   const [open, setOpen] = useState(false);
@@ -32,7 +31,8 @@ function Navbar() {
     <div className="container">
       <header>
         <div className="menu" onClick={isOpen}>
-          <i className="fa fa-bars"></i>
+          {/* <i className="fa fa-bars"></i> */}
+          <MagneticButton></MagneticButton>
         </div>       
       </header>
       <AnimatePresence>
