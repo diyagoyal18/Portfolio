@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import './Navbar.scss';
+import Object from '../SplineObject/Spline';
 import {motion, AnimatePresence} from "framer-motion";
 import MagneticButton from '../Layout'; 
+import MyImage from './MyImage.png'
 function Navbar() {
 
   const [open, setOpen] = useState(false);
@@ -35,6 +37,10 @@ function Navbar() {
           <MagneticButton></MagneticButton>
         </div>       
       </header>
+      <div className="content_wrapper">
+     {/* <img alt='diya' src={MyImage}></img> */}
+     <Object></Object>
+     </div>
       <AnimatePresence>
         {
           open &&(
@@ -115,9 +121,9 @@ function Navbar() {
           )
         }    
       </AnimatePresence>  
-     <div className="content_wrapper">
-      <p>Animated Navigation</p>
-     </div>
+     {/* <div className="content_wrapper">
+     <Object></Object>
+     </div> */}
     </div>
   );
 }

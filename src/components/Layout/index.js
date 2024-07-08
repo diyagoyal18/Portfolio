@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap, Elastic } from 'gsap';
 import './Layout.css'
+
 const MagneticButton = () => {
   const buttonRef = useRef(null);
   const childrenRef = useRef(null);
@@ -50,10 +51,16 @@ const MagneticButton = () => {
   }, []);
 
   return (
+    <div>
+
     <a className='magneticButton' ref={buttonRef} style={{ display: 'inline-block', position: 'relative' }}>
       <span ref={childrenRef}>.</span>
     </a>
+    </div>
+   
+     
   );
+
 };
 
 export default MagneticButton;

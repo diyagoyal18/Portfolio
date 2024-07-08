@@ -1,0 +1,32 @@
+.hello-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0c0c0c;
+  }
+  
+  .hello-text {
+    font-size: 3rem;
+    color: #ffffff;
+    animation: fadeIn 1s ease-in-out, fadeOut 1s ease-in-out 1s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
