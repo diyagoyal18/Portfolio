@@ -4,13 +4,8 @@ import Navbar from '../Navbar';
 
 const languages = [
   'Hello', // English
-  'Hola', // Spanish
   'Bonjour', // French
-  'Hallo', // German
-  'Ciao', // Italian
-  'Olá', // Portuguese
-  '你好', // Chinese
-  'こんにちは', // Japanese
+  'Hola', // Spanish
   'नमस्ते', // Hindi
 ];
 
