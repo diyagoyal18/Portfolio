@@ -9,7 +9,7 @@
   .hello-text {
     font-size: 3rem;
     color: #ffffff;
-    animation: fadeIn 0.5s ease-in-out, fadeOut 0.5s ease-in-out 0.5s;
+    animation: fadeIn 1s ease-in-out, fadeOut 1s ease-in-out 1s;
   }
   
   @keyframes fadeIn {

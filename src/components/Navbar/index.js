@@ -3,7 +3,6 @@ import './Navbar.scss';
 import Object from '../SplineObject/Spline';
 import {motion, AnimatePresence} from "framer-motion";
 import MagneticButton from '../Layout'; 
-import Parallax from '../Parallax/Parallax';
 function Navbar() {
 
   const [open, setOpen] = useState(false);
@@ -37,7 +36,6 @@ function Navbar() {
           <MagneticButton></MagneticButton>
         </div>       
       </header>
-      <section>
 
       <div className="content_wrapper">
      {/* <img alt='diya' src={MyImage}></img> */}
@@ -124,10 +122,7 @@ function Navbar() {
         }    
       </AnimatePresence>  
     
-        </section>
-     <section>
-      <Parallax></Parallax>
-     </section>
+   
     </div>
 
   );

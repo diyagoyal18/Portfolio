@@ -5,8 +5,8 @@ import Animation from './components/Animation/Animation'
 function App() {
   return (
    <>
-   <Animation/>
-   <Routes>
+    <Animation/>
+     <Routes>
     
     <Route path='/' element={<Navbar/>}/>
    </Routes>
