@@ -44,7 +44,7 @@ header{
   height:100%;
   opacity: 70%;
   color:#fff;
-  background-color: rgba(1, 1, 1, 0.36);  @extend .dflex;
+  background-color: rgba(0, 0, 0, 0.36);  @extend .dflex;
   flex-direction: column;
   a{
     display:inline-flex;
@@ -57,7 +57,7 @@ header{
       font-size:22px;
     }
     text-transform: uppercase;
-    +a{
+    .a{
       margin-top:1vw;
     }
   }
