@@ -21,7 +21,7 @@ export default function About() {
         <div className='relative z-10 p-20 mix-blend-difference text-white w-full h-full flex flex-col justify-between'>
             
           
-            <p className='w-[50vw] text-[2vw] self-end  mix-blend-difference font-mono italic text-indigo-700 '>I am Diya Goyal, a Software Developer majoring in Full Stack Web Development. I am passionate about innovative solutions in Web Development and DSA.</p>
+            <p className='w-[50vw] text-[2vw] self-end  mix-blend-difference font-mono italic text-fuchsia-400'>I am Diya Goyal, a Software Developer majoring in Full Stack Web Development. I am passionate about innovative solutions in Web Development and DSA.</p>
             <p className='text-[5vw] uppercase mix-blend-difference'>Projects</p>
         </div>
         <div className='fixed top-[0vh] left-0 h-[120vh] w-full'>
