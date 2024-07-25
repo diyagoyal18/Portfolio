@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import Scene from "../components/Projects/Scene";
 import Projects from "../components/Projects/Project";
 import Lenis from 'lenis'
+import About from '../components/About'
+import Intro from '../components/Intro'
 export default function Home() {
 
   const [activeMenu, setActiveMenu] = useState(null)
@@ -20,6 +22,8 @@ export default function Home() {
   return (
     <main>
       <div className="h-[50vh]"></div>
+      {/* <Intro/> */}
+      <About/>
       <Projects setActiveMenu={setActiveMenu}/>
       <Scene activeMenu={activeMenu}/>
       <div className="h-[50vh]"></div>
